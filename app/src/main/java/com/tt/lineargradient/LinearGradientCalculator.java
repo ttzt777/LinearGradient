@@ -1,6 +1,9 @@
 package com.tt.lineargradient;
 
 import android.graphics.Color;
+import android.util.Log;
+
+import static android.content.ContentValues.TAG;
 
 public class LinearGradientCalculator {
     private int[] mColors;
@@ -70,14 +73,17 @@ public class LinearGradientCalculator {
         int blue = (int) (blueStart + ((blueEnd - blueStart) * progressInPhase + 0.5));
 
         if (red > 255) {
+            Log.e("aa", "red");
             red = 255;
         }
 
         if (green > 255) {
+            Log.e("aa", "green");
             green = 255;
         }
 
         if (blue > 255) {
+            Log.e("aa", "blue");
             blue = 255;
         }
 
