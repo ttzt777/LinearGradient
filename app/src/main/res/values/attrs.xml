@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="LinearGradientView" >
+        <attr name="expand" format="boolean"/>
+        <attr name="contractWidth" format="dimension"/>
+        <attr name="backgroundWidth" format="dimension"/>
+        <attr name="lineStroke" format="dimension"/>
+        <attr name="lineWidthOffset" format="dimension"/>
+        <attr name="minValue" format="float"/>
+        <attr name="maxValue" format="float"/>
+        <attr name="portionCount" format="integer"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+</resources>
